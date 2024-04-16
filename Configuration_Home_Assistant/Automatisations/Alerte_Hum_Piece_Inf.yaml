@@ -1,0 +1,15 @@
+alias: seuil_hum_inf
+description: ""
+trigger:
+  - platform: numeric_state
+    entity_id:
+      - sensor.humidite
+    above: 30
+condition: []
+action:
+  - service: notify.persistent_notification
+    metadata: {}
+    data:
+       title: "Alerte Seuil "
+       message: Humidité du de la pièce trop basse
+mode: single

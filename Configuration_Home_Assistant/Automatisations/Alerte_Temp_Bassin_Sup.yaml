@@ -1,0 +1,15 @@
+alias: seuil_temp_bassin_sup
+description: ""
+trigger:
+  - platform: numeric_state
+    entity_id:
+      - sensor.temperature_bassin
+    above: 20
+condition: []
+action:
+  - service: notify.persistent_notification
+    metadata: {}
+    data:
+      title: "Alerte Seuil "
+      message: Température du bassin trop haute
+mode: single

@@ -1,0 +1,15 @@
+alias: seuil_niveau_eau
+description: ""
+trigger:
+  - platform: numeric_state
+    entity_id:
+      - sensor.niveau_eau
+    above: 20
+condition: []
+action:
+  - service: notify.persistent_notification
+    metadata: {}
+    data:
+      title: "Alerte Seuil "
+      message: Le niveau d eau est trop bas
+mode: single

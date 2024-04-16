@@ -1,0 +1,42 @@
+title: Bassin Acoustique Intelligent
+views:
+  - path: default_view
+    title: Utilisateur
+    cards:
+      - type: entities
+        entities:
+          - sensor.time
+      - type: entities
+        title: Temperature Bassin
+        entities:
+          - sensor.temperature_bassin
+        footer:
+          type: graph
+          entity: sensor.temperature_bassin
+          detail: 1
+      - type: entities
+        title: Humidite
+        entities:
+          - sensor.humidite
+        footer:
+          type: graph
+          entity: sensor.humidite
+          detail: 1
+      - type: entities
+        title: Temperature piece
+        entities:
+          - sensor.temperature_piece
+        footer:
+          type: graph
+          entity: sensor.temperature_piece
+          detail: 1
+          hours_to_show: 24
+      - type: entities
+        title: Niveau eau
+        entities:
+          - sensor.niveau_eau
+        footer:
+          type: graph
+          entity: sensor.niveau_eau
+          detail: 2
+    
