@@ -79,10 +79,10 @@ client.subscribe(topic5)
 client.on_message = on_message
 
 def envoyer_fichier_json_par_email(filename):
-    smtp_server = 'email-smtp.eu-west-3.amazonaws.com'
+    smtp_server = 'A modifier'
     smtp_port = 587
-    smtp_username = 'AKIATCKAPS5M74TU35PC'
-    smtp_password = 'BOh5ogn8FIMdP5yQLKUhxMfV9VIZkpCDnOFHTnAhzGLe'
+    smtp_username = 'A modifier'
+    smtp_password = 'A modifier'
     expediteur = 'bassin.iot@gmail.com'
     destinataire = 'bassin.iot@gmail.com'
 
@@ -155,10 +155,10 @@ def distance():
 # Fonction pour envoyer un e-mail à plusieurs destinataires
 def envoyer_email(sujet, corps):
     # Paramètres du serveur SMTP (utilisez vos propres informations)
-    smtp_server = 'email-smtp.eu-west-3.amazonaws.com'
-    smtp_port = 587  # Port pour STARTTLS
-    smtp_username = 'AKIATCKAPS5M74TU35PC'
-    smtp_password = 'BOh5ogn8FIMdP5yQLKUhxMfV9VIZkpCDnOFHTnAhzGLe'
+    smtp_server = 'A modifier'
+    smtp_port = 587
+    smtp_username = 'A modifier'
+    smtp_password = 'A modifier'
 
 
     # Adresse e-mail de l'expéditeur
