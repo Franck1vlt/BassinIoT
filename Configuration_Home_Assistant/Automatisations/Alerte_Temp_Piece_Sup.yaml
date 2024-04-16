@@ -1,0 +1,15 @@
+alias: seuil_temp_piece_sup
+description: ""
+trigger:
+  - platform: numeric_state
+    entity_id:
+      - sensor.temperature_piece
+    above: 25
+condition: []
+action:
+  - service: notify.persistent_notification
+    metadata: {}
+    data:
+      title: "Alerte Seuil "
+      message: Température du de la pièce trop élevé
+mode: single

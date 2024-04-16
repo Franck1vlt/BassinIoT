@@ -1,36 +1,18 @@
-title: Bassin Acoustique Intelligent
+title: Bassin Acoustique
 views:
   - path: default_view
-    title: Utilisateur
+    title: Home
     cards:
-      - type: entities
-        entities:
-          - sensor.time
-      - type: entities
-        title: Temperature Bassin
-        entities:
-          - sensor.temperature_bassin
-        footer:
-          type: graph
-          entity: sensor.temperature_bassin
-          detail: 1
       - type: entities
         title: Humidite
         entities:
           - sensor.humidite
+        state_color: false
         footer:
           type: graph
           entity: sensor.humidite
-          detail: 1
-      - type: entities
-        title: Temperature piece
-        entities:
-          - sensor.temperature_piece
-        footer:
-          type: graph
-          entity: sensor.temperature_piece
-          detail: 1
           hours_to_show: 24
+          detail: 1
       - type: entities
         title: Niveau eau
         entities:
@@ -38,5 +20,36 @@ views:
         footer:
           type: graph
           entity: sensor.niveau_eau
-          detail: 2
-    
+      - type: entities
+        title: Temperature Bassin
+        entities:
+          - entity: sensor.temperature_bassin
+        footer:
+          type: graph
+          entity: sensor.temperature_bassin
+          detail: 1
+      - type: entities
+        title: Temperature piece
+        entities:
+          - entity: sensor.temperature_piece
+        footer:
+          type: graph
+          entity: sensor.temperature_piece
+      - show_name: true
+        show_icon: true
+        type: button
+        hold_action:
+          action: toggle
+        entity: input_boolean.hidden_switch
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          target: {}
+          data:
+            retain: false
+            topic: isen/bassiniot/data
+            payload: 'ON'
+        name: Récupération des données
+        icon: mdi:auto-download
+        show_state: false
+        icon_height: 128px

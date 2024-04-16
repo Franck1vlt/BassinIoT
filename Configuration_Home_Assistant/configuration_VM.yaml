@@ -1,0 +1,34 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+# Example configuration.yaml entry
+mqtt:
+  sensor:
+  - name: "Temperature bassin"
+    state_topic: "isen/bassiniot/temp_eau"
+    unique_id: ds_temp_sensor
+    device_class: temperature
+    unit_of_measurement: "°C"
+  - name: "Temperature piece"
+    state_topic: "isen/bassiniot/temp"
+    unique_id: sht_temp_sensor
+    device_class: temperature
+    unit_of_measurement: "°C"
+  - name: "Humidite"
+    state_topic: "isen/bassiniot/hum"
+    unique_id: sht_hum_sensor
+    device_class: humidity
+    unit_of_measurement: "%"  
+  - name: "Niveau eau"
+    state_topic: "isen/bassiniot/dist"
+    unique_id: hc_dist_sensor
+    device_class: distance
+    unit_of_measurement: "cm"  
+
+# Load frontend themes from the themes folder
+
+frontend:
+  themes: !include_dir_merge_named themes
+  # default_view: lovelace
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
