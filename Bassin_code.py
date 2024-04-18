@@ -87,8 +87,8 @@ time_passed = 0
 def envoyer_fichier_json_par_email(filename):
     smtp_server = 'email-smtp.eu-west-3.amazonaws.com'
     smtp_port = 587
-    smtp_username = 'AKIATCKAPS5M74TU35PC'
-    smtp_password = 'BOh5ogn8FIMdP5yQLKUhxMfV9VIZkpCDnOFHTnAhzGLe'
+    smtp_username = 'A modifier'
+    smtp_password = 'A modifier'
     expediteur = 'bassin.iot@gmail.com'
     destinataire = 'bassin.iot@gmail.com'
 
@@ -189,9 +189,9 @@ def insert_data_to_mongodb(temp, temp_eau, humidity, dist):
 def envoyer_email(sujet, corps):
     # ParamÃ¨tres du serveur SMTP (utilisez vos propres informations)
     smtp_server = 'email-smtp.eu-west-3.amazonaws.com'
-    smtp_port = 587  # Port pour STARTTLS
-    smtp_username = 'AKIATCKAPS5M74TU35PC'
-    smtp_password = 'BOh5ogn8FIMdP5yQLKUhxMfV9VIZkpCDnOFHTnAhzGLe'
+    smtp_port = 587
+    smtp_username = 'A modifier'
+    smtp_password = 'A modifier'
 
 
     # Adresse e-mail de l'expÃ©diteur
