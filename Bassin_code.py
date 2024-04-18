@@ -81,9 +81,6 @@ client.subscribe(topic5)
 
 client.on_message = on_message
 
-seconds_passed = 0
-time_passed = 0
-
 def envoyer_fichier_json_par_email(filename):
     smtp_server = 'email-smtp.eu-west-3.amazonaws.com'
     smtp_port = 587
@@ -299,8 +296,6 @@ while True:
     temp_eau = sensor_DS18B20.get_temperature() # Lire la tempÃ©rature du capteur DS18B20
     [temp, humidity] = read_sht35() # Lire la tempÃ©rature et l'humiditÃ© du capteur SHT35
     dist = distance() # Lire la distance du capteur HC-SR04
-
-    print(seconds_passed)
 
     temp = round(temp, 3)
     humidity = round(temp,3)
