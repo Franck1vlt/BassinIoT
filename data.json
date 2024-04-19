@@ -1,0 +1,611 @@
+[
+    {
+        "datetime": "2024-04-19T13:13:00",
+        "temp": 21.379,
+        "temp_eau": 19.312,
+        "humidity": 21.379,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:13:00",
+        "temp": 21.392,
+        "temp_eau": 19.438,
+        "humidity": 21.392,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:13:00",
+        "temp": 21.408,
+        "temp_eau": 19.438,
+        "humidity": 21.408,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:13:00",
+        "temp": 21.392,
+        "temp_eau": 19.438,
+        "humidity": 21.392,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:14:00",
+        "temp": 21.408,
+        "temp_eau": 19.438,
+        "humidity": 21.408,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:14:00",
+        "temp": 21.422,
+        "temp_eau": 19.438,
+        "humidity": 21.422,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:14:00",
+        "temp": 21.422,
+        "temp_eau": 19.375,
+        "humidity": 21.422,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:14:00",
+        "temp": 21.422,
+        "temp_eau": 19.438,
+        "humidity": 21.422,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.451,
+        "temp_eau": 19.438,
+        "humidity": 21.451,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.451,
+        "temp_eau": 19.438,
+        "humidity": 21.451,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.464,
+        "temp_eau": 19.375,
+        "humidity": 21.464,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.464,
+        "temp_eau": 19.438,
+        "humidity": 21.464,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.422,
+        "temp_eau": 19.438,
+        "humidity": 21.422,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.366,
+        "temp_eau": 19.438,
+        "humidity": 21.366,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.352,
+        "temp_eau": 19.375,
+        "humidity": 21.352,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.352,
+        "temp_eau": 19.375,
+        "humidity": 21.352,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.352,
+        "temp_eau": 19.438,
+        "humidity": 21.352,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.352,
+        "temp_eau": 19.375,
+        "humidity": 21.352,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.336,
+        "temp_eau": 19.375,
+        "humidity": 21.336,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.379,
+        "temp_eau": 19.375,
+        "humidity": 21.379,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.379,
+        "temp_eau": 19.375,
+        "humidity": 21.379,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.366,
+        "temp_eau": 19.375,
+        "humidity": 21.366,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.379,
+        "temp_eau": 19.375,
+        "humidity": 21.379,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.422,
+        "temp_eau": 19.375,
+        "humidity": 21.422,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.392,
+        "temp_eau": 19.375,
+        "humidity": 21.392,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.435,
+        "temp_eau": 19.375,
+        "humidity": 21.435,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.435,
+        "temp_eau": 19.375,
+        "humidity": 21.435,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.464,
+        "temp_eau": 19.438,
+        "humidity": 21.464,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.464,
+        "temp_eau": 19.438,
+        "humidity": 21.464,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.464,
+        "temp_eau": 19.438,
+        "humidity": 21.464,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.507,
+        "temp_eau": 19.438,
+        "humidity": 21.507,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:15:00",
+        "temp": 21.491,
+        "temp_eau": 19.438,
+        "humidity": 21.491,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.534,
+        "temp_eau": 19.438,
+        "humidity": 21.534,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.55,
+        "temp_eau": 19.438,
+        "humidity": 21.55,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.563,
+        "temp_eau": 19.375,
+        "humidity": 21.563,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.563,
+        "temp_eau": 19.375,
+        "humidity": 21.563,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.507,
+        "temp_eau": 19.375,
+        "humidity": 21.507,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.521,
+        "temp_eau": 19.375,
+        "humidity": 21.521,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.55,
+        "temp_eau": 19.438,
+        "humidity": 21.55,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.563,
+        "temp_eau": 19.438,
+        "humidity": 21.563,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.59,
+        "temp_eau": 19.438,
+        "humidity": 21.59,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.633,
+        "temp_eau": 19.438,
+        "humidity": 21.633,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.619,
+        "temp_eau": 19.438,
+        "humidity": 21.619,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.633,
+        "temp_eau": 19.375,
+        "humidity": 21.633,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.662,
+        "temp_eau": 19.375,
+        "humidity": 21.662,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.662,
+        "temp_eau": 19.375,
+        "humidity": 21.662,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.675,
+        "temp_eau": 19.375,
+        "humidity": 21.675,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.689,
+        "temp_eau": 19.375,
+        "humidity": 21.689,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.689,
+        "temp_eau": 19.375,
+        "humidity": 21.689,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.721,
+        "temp_eau": 19.312,
+        "humidity": 21.721,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.721,
+        "temp_eau": 19.375,
+        "humidity": 21.721,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.734,
+        "temp_eau": 19.375,
+        "humidity": 21.734,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.764,
+        "temp_eau": 19.375,
+        "humidity": 21.764,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.79,
+        "temp_eau": 19.375,
+        "humidity": 21.79,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.806,
+        "temp_eau": 19.375,
+        "humidity": 21.806,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:16:00",
+        "temp": 21.806,
+        "temp_eau": 19.375,
+        "humidity": 21.806,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.82,
+        "temp_eau": 19.375,
+        "humidity": 21.82,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.82,
+        "temp_eau": 19.375,
+        "humidity": 21.82,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.862,
+        "temp_eau": 19.375,
+        "humidity": 21.862,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.849,
+        "temp_eau": 19.375,
+        "humidity": 21.849,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.918,
+        "temp_eau": 19.375,
+        "humidity": 21.918,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 21.918,
+        "temp_eau": 19.375,
+        "humidity": 21.918,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:17:00",
+        "temp": 22.073,
+        "temp_eau": 19.312,
+        "humidity": 22.073,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:18:00",
+        "temp": 22.274,
+        "temp_eau": 20.125,
+        "humidity": 22.274,
+        "dist": 0
+    },
+    {
+        "datetime": "2024-04-19T13:19:00",
+        "temp": 22.228,
+        "temp_eau": 20.312,
+        "humidity": 22.228,
+        "dist": 3.124
+    },
+    {
+        "datetime": "2024-04-19T13:20:00",
+        "temp": 22.487,
+        "temp_eau": 20.312,
+        "humidity": 22.487,
+        "dist": 5.962
+    },
+    {
+        "datetime": "2024-04-19T13:21:00",
+        "temp": 22.613,
+        "temp_eau": 20.188,
+        "humidity": 22.613,
+        "dist": 5.953
+    },
+    {
+        "datetime": "2024-04-19T13:22:00",
+        "temp": 22.599,
+        "temp_eau": 20.188,
+        "humidity": 22.599,
+        "dist": 5.299
+    },
+    {
+        "datetime": "2024-04-19T13:23:00",
+        "temp": 22.842,
+        "temp_eau": 20.062,
+        "humidity": 22.842,
+        "dist": 5.291
+    },
+    {
+        "datetime": "2024-04-19T13:24:00",
+        "temp": 22.754,
+        "temp_eau": 20.062,
+        "humidity": 22.754,
+        "dist": 5.275
+    },
+    {
+        "datetime": "2024-04-19T13:25:00",
+        "temp": 22.869,
+        "temp_eau": 20.0,
+        "humidity": 22.869,
+        "dist": 5.316
+    },
+    {
+        "datetime": "2024-04-19T13:26:00",
+        "temp": 22.797,
+        "temp_eau": 20.0,
+        "humidity": 22.797,
+        "dist": 5.283
+    },
+    {
+        "datetime": "2024-04-19T13:28:00",
+        "temp": 23.04,
+        "temp_eau": 19.938,
+        "humidity": 23.04,
+        "dist": 5.213
+    },
+    {
+        "datetime": "2024-04-19T13:29:00",
+        "temp": 23.165,
+        "temp_eau": 19.938,
+        "humidity": 23.165,
+        "dist": 5.316
+    },
+    {
+        "datetime": "2024-04-19T13:30:00",
+        "temp": 23.139,
+        "temp_eau": 19.938,
+        "humidity": 23.139,
+        "dist": 5.291
+    },
+    {
+        "datetime": "2024-04-19T13:31:00",
+        "temp": 23.053,
+        "temp_eau": 19.875,
+        "humidity": 23.053,
+        "dist": 5.234
+    },
+    {
+        "datetime": "2024-04-19T13:32:00",
+        "temp": 23.109,
+        "temp_eau": 19.875,
+        "humidity": 23.109,
+        "dist": 5.299
+    },
+    {
+        "datetime": "2024-04-19T13:33:00",
+        "temp": 23.139,
+        "temp_eau": 19.875,
+        "humidity": 23.139,
+        "dist": 5.307
+    },
+    {
+        "datetime": "2024-04-19T13:34:00",
+        "temp": 23.224,
+        "temp_eau": 19.875,
+        "humidity": 23.224,
+        "dist": 5.279
+    },
+    {
+        "datetime": "2024-04-19T13:35:00",
+        "temp": 23.096,
+        "temp_eau": 19.875,
+        "humidity": 23.096,
+        "dist": 5.271
+    },
+    {
+        "datetime": "2024-04-19T13:36:00",
+        "temp": 23.027,
+        "temp_eau": 19.875,
+        "humidity": 23.027,
+        "dist": 5.32
+    },
+    {
+        "datetime": "2024-04-19T13:37:00",
+        "temp": 23.109,
+        "temp_eau": 19.875,
+        "humidity": 23.109,
+        "dist": 5.311
+    },
+    {
+        "datetime": "2024-04-19T13:38:00",
+        "temp": 23.152,
+        "temp_eau": 19.875,
+        "humidity": 23.152,
+        "dist": 5.324
+    },
+    {
+        "datetime": "2024-04-19T13:39:00",
+        "temp": 23.182,
+        "temp_eau": 19.875,
+        "humidity": 23.182,
+        "dist": 5.279
+    },
+    {
+        "datetime": "2024-04-19T13:40:00",
+        "temp": 23.139,
+        "temp_eau": 19.875,
+        "humidity": 23.139,
+        "dist": 5.266
+    },
+    {
+        "datetime": "2024-04-19T13:41:00",
+        "temp": 23.083,
+        "temp_eau": 19.875,
+        "humidity": 23.083,
+        "dist": 5.266
+    },
+    {
+        "datetime": "2024-04-19T13:54:00",
+        "temp": 23.566,
+        "temp_eau": 20.375,
+        "humidity": 23.566,
+        "dist": 0
+    }
+]

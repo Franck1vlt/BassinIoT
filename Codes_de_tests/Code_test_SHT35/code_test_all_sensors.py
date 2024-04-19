@@ -15,15 +15,15 @@ bus = smbus.SMBus(1)
 # Adresse I2C du SHT35
 SHT35_ADDRESS = 0x44
 
-# Module GPIO: BOARD ou BCM (numérotation comme la sérigraphi>
+# Module GPIO: BOARD ou BCM
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
-# Définition des broches GPIO #
+# Définition des broches GPIO 
 GPIO_TRIGGER = 23
 GPIO_ECHO = 24
 
-# Définition des broches en entrées ou en sortie #
+# Définition des broches en entrées ou en sortie 
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
 
