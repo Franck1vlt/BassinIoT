@@ -44,9 +44,11 @@ try:
             # Affichage d'un message si aucune donnée n'a été reçue dans le délai spécifié
             print("Aucune donnée reçue depuis le port série dans le délai spécifié")
 
+# Gestion des exceptions
 except serial.SerialException as e:
     print("Erreur lors de l'ouverture du port série:", e)
 
+# Gestion de l'interruption (Ctrl+C)
 except KeyboardInterrupt:
     # Gestion de l'interruption (Ctrl+C) pour arrêter le programme proprement
     print("Arrêt du programme")

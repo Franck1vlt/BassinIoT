@@ -312,7 +312,7 @@ while True:
 
     insert_data_to_mongodb(temp, temp_eau, humidity, dist) # InsÃ©rer les donnÃ©es dans la base de donnÃ©es MongoDB
     update_json_file(temp, temp_eau, humidity, dist) # Mettre Ã  jour le fichier JSON avec les nouvelles donnÃ©es
-    # Attendre une seconde avant la prochaine lecture
+    # Attendre une heure avant la prochaine lecture
     time.sleep(3600)
 
 client.loop_stop() # ArrÃªter la boucle du client MQTT

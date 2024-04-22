@@ -308,7 +308,7 @@ while True:
 
     insert_data_to_mongodb(temp, temp_eau, humidity, dist)
     update_json_file(temp, temp_eau, humidity, dist)
-    # Attendre une seconde avant la prochaine lecture
+    # Attendre une heure avant la prochaine lecture
     time.sleep(3600)
 
 client.loop_stop()

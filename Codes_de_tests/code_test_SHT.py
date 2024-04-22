@@ -24,7 +24,7 @@ humidity = ((data[3] * 256.0) + data[4]) / 65535.0 * 100.0
 
 return temp, humidity
 
-
+# Programme principal
 while True:
  [temp, humidity] = read_sht35()
  print("Température : {:.3f}°C, Humidité : {:.3f}%".format(temp, humidity))
