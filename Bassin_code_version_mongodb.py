@@ -1,21 +1,22 @@
-# Librairies
-import smtplib
-from email.mime.text import MIMEText
-import time
-import json
-import smbus
-from w1thermsensor import W1ThermSensor
-import paho.mqtt.client as mqtt
-import RPi.GPIO as GPIO
-import json
-from datetime import datetime, timedelta, timezone
-import os
+# Librairies 
+import smtplib # Librairie pour envoyer des e-mails
+import time # Librairie pour gérer le temps
+# Librairies pour la gestion des dates et heures
+from bson import datetime as bson_datetime
+from datetime import datetime, timedelta, timezone 
+import json # Librairie pour gérer les fichiers JSON
+import smbus # Librairie pour la communication I2C 
+from w1thermsensor import W1ThermSensor # Librairie pour le capteur de température DS18B20
+import paho.mqtt.client as mqtt # Librairie pour la communication MQTT
+import RPi.GPIO as GPIO # Librairie pour les GPIO
+import os # Librairie pour les fonctions système
+# Librairies pour envoyer des e-mails
+from email.mime.text import MIMEText # Librairie pour envoyer des e-mails
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-from pymongo.mongo_client import MongoClient
-from bson import datetime as bson_datetime
+from pymongo.mongo_client import MongoClient # Librairie pour la base de données MongoDB
 
 
 # Créer une instance du capteur DS18B20
@@ -79,18 +80,15 @@ client = mqtt.Client("Python")
 client.connect(broker_address, broker_port)
 client.subscribe(topic5)
 
-client.on_message = on_message
-
-seconds_passed = 0
-time_passed = 0
+client.on_message = on_message # Définir la fonction de rappel pour le message MQTT
 
 def envoyer_fichier_json_par_email(filename):
-    smtp_server = 'A modifier'
+    smtp_server = 'email-smtp.eu-west-3.amazonaws.com' # Serveur Francais
     smtp_port = 587
     smtp_username = 'A modifier'
     smtp_password = 'A modifier'
     expediteur = 'bassin.iot@gmail.com'
-    destinataire = 'A modifier'
+    destinataire = 'A modifier' # Mettre les adresses e-mail des destinataires sÃ©parÃ©es par des virgules
 
     # Création du message multipart
     msg = MIMEMultipart()
@@ -188,12 +186,12 @@ def insert_data_to_mongodb(temp, temp_eau, humidity, dist):
 # Fonction pour envoyer un e-mail à plusieurs destinataires
 def envoyer_email(sujet, corps):
     # Paramètres du serveur SMTP (utilisez vos propres informations)
-    smtp_server = 'A modifier'
+    smtp_server = 'email-smtp.eu-west-3.amazonaws.com' # Serveur Francais
     smtp_port = 587
     smtp_username = 'A modifier'
     smtp_password = 'A modifier'
     expediteur = 'bassin.iot@gmail.com'
-    destinataire = 'A modifier'
+    destinataire = 'A modifier' # Mettre les adresses e-mail des destinataires sÃ©parÃ©es par des virgules
 
     # Créez le message e-mail
     msg = MIMEText(corps)
@@ -297,8 +295,6 @@ while True:
     temp_eau = sensor_DS18B20.get_temperature() # Lire la température du capteur DS18B20
     [temp, humidity] = read_sht35() # Lire la température et l'humidité du capteur SHT35
     dist = distance() # Lire la distance du capteur HC-SR04
-
-    print(seconds_passed)
 
     temp = round(temp, 3)
     humidity = round(temp,3)
