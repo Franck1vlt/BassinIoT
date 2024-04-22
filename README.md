@@ -34,14 +34,6 @@ Pour répondre à cette problématique, notre projet vise à concevoir un systè
     ```
     python3 NomDuFichier.py
     ```
-
-## Contribuer
-Toute contribution à ce projet est la bienvenue ! Si vous souhaitez apporter des améliorations, veuillez suivre les étapes suivantes :
-1. Fork ce dépôt.
-2. Créez une branche pour votre fonctionnalité ou votre correction de bug.
-3. Effectuez les modifications nécessaires.
-4. Soumettez une demande d'extraction.
-
 ## Auteurs
 - Alan Molcrette
 - Franck Valmont
