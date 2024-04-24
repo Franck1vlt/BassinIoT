@@ -28,7 +28,7 @@ Pour répondre à cette problématique, notre projet vise à concevoir un systè
     - Python 3.x
 5. Installez les dépendances requises en exécutant la commande suivante :
     ```
-    pip3 install -r requirements
+    pip3 install -r NomDeLaDependance
     ```
 6. Lancez l'application en exécutant la commande suivante :
     ```
