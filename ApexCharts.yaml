@@ -1,0 +1,36 @@
+type: custom:apexcharts-card
+header:
+  show: true
+  title: Température bassin
+  show_states: true
+  colorize_states: true
+experimental:
+brush: true
+graph_span: 168h
+brush:
+  selection_span: 24h
+  apex_config: null
+yaxis:
+  - id: first
+    min: ~10
+    max: ~20
+    decimals: 0
+    apex_config:
+      tickAmount: 3
+series:
+  - entity: sensor.temperature_bassin //capteur utilisé
+    yaxis_id: first
+    show:
+      in_brush: true
+    stroke_width: 2
+    extend_to: false
+    fill_raw: last
+  - entity: sensor.temperature_bassin
+    show:
+      in_brush: true
+    group_by:
+      func: avg
+      duration: 24h
+    stroke_width: 2
+    extend_to: false
+    fill_raw: last
